@@ -22,7 +22,7 @@ Soluções:
 
 GET api/Pokemons	
 
-- Rota para retornar 1 pokemons específico passando o ID como parãmetro de rota
+- Rota para retornar 1 pokemon específico, passando o ID como parâmetro de rota
 
 GET api/Pokemons/{id}	
 
