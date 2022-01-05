@@ -21,12 +21,12 @@ Soluções:
 GET api/Pokemons/getAllCaptureds	
 
 POST api/Pokemons/PostMaster	
-            {
-              "PokemonMasterId": 1,
-              "Name": "sample string 2",
-              "Age": 3,
-              "Cpf": 4
-            }
+                {
+                  "PokemonMasterId": 1,
+                  "Name": "sample string 2",
+                  "Age": 3,
+                  "Cpf": 4
+                }
 
 POST api/Pokemons/PostCaptured	
 
