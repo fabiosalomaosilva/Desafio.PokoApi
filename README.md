@@ -18,22 +18,16 @@ Soluções:
  
 # Endpoints:
 
-GET api/Pokemons/getAllCaptureds	
-
+- Rota para retornar 10 pokemons aleatórios
 GET api/Pokemons	
 
+- Rota para retornar 1 pokemons específico passando o ID como parãmetro de rota
 GET api/Pokemons/{id}	
 
-POST api/Pokemons/PostMaster	
+- Rota para retornar os pokemons capturados
+GET api/Pokemons/getAllCaptureds	
 
-        POST - application/json
-        {
-            "PokemonMasterId": 1,
-            "Name": "string 1",
-            "Age": 3,
-            "Cpf": 4
-        }
-
+- Rota para informar o pokemons capturados
 POST api/Pokemons/PostCaptured	
 
         POST - application/json
@@ -45,4 +39,15 @@ POST api/Pokemons/PostCaptured
             "SpriteBase64": "string sprite",
             "Evolution": "string evolution",
             "Color": "string color",
+        }
+
+- Rota para cadastrar um pokemon mestre
+POST api/Pokemons/PostMaster	
+
+        POST - application/json
+        {
+            "PokemonMasterId": 1,
+            "Name": "string 1",
+            "Age": 3,
+            "Cpf": 4
         }
