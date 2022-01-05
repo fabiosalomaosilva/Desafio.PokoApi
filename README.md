@@ -20,17 +20,29 @@ Soluções:
 
 GET api/Pokemons/getAllCaptureds	
 
-POST api/Pokemons/PostMaster	
-
-                {
-                  "PokemonMasterId": 1,
-                  "Name": "sample string 2",
-                  "Age": 3,
-                  "Cpf": 4
-                }
-
-POST api/Pokemons/PostCaptured	
-
 GET api/Pokemons	
 
 GET api/Pokemons/{id}	
+
+POST api/Pokemons/PostMaster	
+
+        POST - application/json
+        {
+            "PokemonMasterId": 1,
+            "Name": "string 1",
+            "Age": 3,
+            "Cpf": 4
+        }
+
+POST api/Pokemons/PostCaptured	
+
+        POST - application/json
+        {
+            "Name": "string Name",
+            "Height": 5,
+            "Weight": 3,
+            "Evolution": "evolution",
+            "SpriteBase64": "string sprite",
+            "Evolution": "string evolution",
+            "Color": "string color",
+        }
