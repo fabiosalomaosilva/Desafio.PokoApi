@@ -16,10 +16,17 @@ Soluções:
   - Embora eu tenha achado estranho, foi solicitado para cria a API em .Net Framework, e não em .Net Core. Desta forma, criei a API com .Net Framework 4.7.2
   - Foram criados apenas as 5 rotas especificadas
  
-* API	Description
+# Endpoints:
+
 GET api/Pokemons/getAllCaptureds	
 
 POST api/Pokemons/PostMaster	
+        {
+          "PokemonMasterId": 1,
+          "Name": "sample string 2",
+          "Age": 3,
+          "Cpf": 4
+        }
 
 POST api/Pokemons/PostCaptured	
 
