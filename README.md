@@ -1,7 +1,5 @@
 # Desafio.PokoApi
 
-Critérios do Desafio
-
 O desafio trata-se de construir uma API em .NET Framework que consuma a API (https://pokeapi.co/) e possua as seguintes rotas:
 
 1 - get para 10 pokemons aleatórios;
@@ -11,10 +9,14 @@ O desafio trata-se de construir uma API em .NET Framework que consuma a API (htt
 4 - Post para informar que um pokemon foi capturado;
 5 - Listagem dos pokemons já capturados;
 
-Soluções:
+# Soluções
 
-  - Embora eu tenha achado estranho, foi solicitado para cria a API em .Net Framework, e não em .Net Core. Desta forma, criei a API com .Net Framework 4.7.2
-  - Foram criados apenas as 5 rotas especificadas
+  - Embora eu tenha achado estranho, foi solicitado para criar a API em *.Net Framework*, e não em *.Net Core*. Desta forma, criei a API com .Net Framework 4.7.2.
+  - API Rest construída como base no template do ASP.NET Web API com documentação incluída.
+  - Foram criados apenas as 5 rotas especificadas.
+  - Arquivo SQL Lite incluído na pasta App_Data, mas há uma rota desativada na controller, para criação do bd e de sua estrutura (caso necessário).
+  - Como não foi especificado, não utilizei ORM para acesso à dados, fazendo a conexão e manipulação através de ADO.NET e do Package Nuget System.Data.SQLLite.
+  - Pela simplicidade do projeto, deixei de utilizar projetos separados para criação de services, interfaces, repositórios e injeção de dependência, pois acrescentaria complexidade desnecessária.  
  
 # Endpoints:
 
