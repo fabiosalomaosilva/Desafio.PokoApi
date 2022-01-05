@@ -21,6 +21,7 @@ Soluções:
 GET api/Pokemons/getAllCaptureds	
 
 POST api/Pokemons/PostMaster	
+
                 {
                   "PokemonMasterId": 1,
                   "Name": "sample string 2",
