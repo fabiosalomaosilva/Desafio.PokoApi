@@ -20,22 +20,22 @@ Soluções:
 
 - Rota para retornar 10 pokemons aleatórios
 
-GET api/Pokemons	
+        GET api/Pokemons	
 
 - Rota para retornar 1 pokemon específico, passando o ID como parâmetro de rota
 
 
-GET api/Pokemons/{id}	
+        GET api/Pokemons/{id}	
 
 - Rota para retornar os pokemons capturados
 
 
-GET api/Pokemons/getAllCaptureds	
+        GET api/Pokemons/getAllCaptureds	
 
 - Rota para informar o pokemons capturados
 
 
-POST api/Pokemons/PostCaptured	
+        POST api/Pokemons/PostCaptured	
 
         POST - application/json
         {
@@ -51,7 +51,7 @@ POST api/Pokemons/PostCaptured
 - Rota para cadastrar um pokemon mestre
 
 
-POST api/Pokemons/PostMaster	
+        POST api/Pokemons/PostMaster	
 
         POST - application/json
         {
