@@ -24,13 +24,16 @@ GET api/Pokemons
 
 - Rota para retornar 1 pokemon específico, passando o ID como parâmetro de rota
 
+
 GET api/Pokemons/{id}	
 
 - Rota para retornar os pokemons capturados
 
+
 GET api/Pokemons/getAllCaptureds	
 
 - Rota para informar o pokemons capturados
+
 
 POST api/Pokemons/PostCaptured	
 
@@ -46,6 +49,7 @@ POST api/Pokemons/PostCaptured
         }
 
 - Rota para cadastrar um pokemon mestre
+
 
 POST api/Pokemons/PostMaster	
 
