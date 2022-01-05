@@ -3,10 +3,15 @@
 O desafio trata-se de construir uma API em .NET Framework que consuma a API (https://pokeapi.co/) e possua as seguintes rotas:
 
 1 - get para 10 pokemons aleatórios;
+
 2 - get para 1 pokemon específico;
+
     Todas elas devem retornar os dados básicos do pokemon, suas evoluções e o base64 de sprite default de cada pokemon;
+    
 3 - Cadastro do mestre pokemon (dados basicos como nome, idade e cpf) em SQLite;
+
 4 - Post para informar que um pokemon foi capturado;
+
 5 - Listagem dos pokemons já capturados;
 
 # Soluções
